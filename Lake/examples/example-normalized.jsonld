@@ -1,0 +1,29 @@
+{
+    "id": "urn:ngsi-ld:WaterBody:Lake:Achsensee:AT",
+    "type": "Lake",
+    "name": {
+        "type": "Property",
+        "value": "Achensee"
+    },
+    "states": {
+        "type": "Property",
+        "value": [
+            "Tyrol"
+        ]
+    },
+    "surfaceElevation": {
+        "type": "Property",
+        "value": 929.0
+    },
+    "surfaceArea": {
+        "type": "Property",
+        "value": 6.8
+    },
+    "maxDepth": {
+        "type": "Property",
+        "value": 133
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/marvkos/dataModel.WaterBody/refs/heads/main/Lake/schema.json"
+    ]
+}
