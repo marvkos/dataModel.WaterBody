@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft/2020-12/schema",
+    "$schemaVersion": "0.0.1",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+        },
+        {
+            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+        },
+        {
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "Lake"
+                    ],
+                    "description": "Property. NGSI Entity type. It has to be Lake"
+                },
+                "states": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "Property. An array of state of states the lake is located in"
+                },
+                "surfaceElevation": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Property. Surface elevation in Metres above the Adriatic"
+                },
+                "surfaceArea": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Property. Surface area in kilometers squared"
+                },
+                "maxDepth": {
+                    "type": "number",
+                    "minimum": 0,
+                    "description": "Property. Max depth in meters"
+                }
+            }
+        }
+    ],
+    "required": [
+        "id",
+        "type",
+        "name",
+        "state"
+    ]
+}
