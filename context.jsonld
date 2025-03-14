@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "Lake": "https://github.com/marvkos/dataModel.WaterBody/tree/main/Lake",
+        "id": "@id",
+        "name": "https://smartdatamodels.org/name",
+        "type": "@type",
+        "value": "https://uri.etsi.org/ngsi-ld/hasValue"
+    }
+}
