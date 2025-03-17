@@ -18,28 +18,20 @@
                     ],
                     "description": "Property. NGSI Entity type. It has to be Lake"
                 },
-                "states": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    },
-                    "minItems": 1,
-                    "description": "Property. An array of state of states the lake is located in"
-                },
-                "surfaceElevation": {
+                "elevation": {
                     "type": "number",
                     "minimum": 0,
-                    "description": "Property. Surface elevation in Metres above the Adriatic"
+                    "description": "Property. Model:'https://schema.org/Number'. Units:'m'. The surface elevation in meters above the Adriatic"
                 },
-                "surfaceArea": {
+                "area": {
                     "type": "number",
                     "minimum": 0,
-                    "description": "Property. Surface area in kilometers squared"
+                    "description": "Property. Model:'http://schema.org/Number'. Units:'m2'. The surface area of the lake nominally in square meters"
                 },
-                "maxDepth": {
+                "depth": {
                     "type": "number",
                     "minimum": 0,
-                    "description": "Property. Max depth in meters"
+                    "description": "Property. Model:'https://schema.org/depth'. Units:'m'. Maximum depth of this lake"
                 }
             }
         }
@@ -48,6 +40,8 @@
         "id",
         "type",
         "name",
-        "state"
+        "elevation",
+        "area",
+        "depth"
     ]
 }

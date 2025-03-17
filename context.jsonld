@@ -1,7 +1,12 @@
 {
     "@context": {
         "Lake": "https://github.com/marvkos/dataModel.WaterBody/tree/main/Lake",
+        "address": "https://smartdatamodels.org/address",
+        "addressRegion": "https://smartdatamodels.org/addressRegion",
+        "area": "https://smartdatamodels.org/area",
         "id": "@id",
+        "depth": "https://smartdatamodels.org/depth",
+        "elevation": "https://smartdatamodels.org/elevation",
         "name": "https://smartdatamodels.org/name",
         "type": "@type",
         "value": "https://uri.etsi.org/ngsi-ld/hasValue"

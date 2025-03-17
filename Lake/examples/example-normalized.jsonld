@@ -5,25 +5,25 @@
         "type": "Property",
         "value": "Achensee"
     },
-    "states": {
+    "address": {
         "type": "Property",
-        "value": [
-            "Tyrol"
-        ]
+        "value": {
+            "addressRegion": "Tyrol"
+        }
     },
-    "surfaceElevation": {
+    "elevation": {
         "type": "Property",
         "value": 929.0
     },
-    "surfaceArea": {
+    "area": {
         "type": "Property",
         "value": 6.8
     },
-    "maxDepth": {
+    "depth": {
         "type": "Property",
         "value": 133
     },
     "@context": [
-        "https://raw.githubusercontent.com/marvkos/dataModel.WaterBody/refs/heads/main/Lake/schema.json"
+        "https://raw.githubusercontent.com/marvkos/dataModel.WaterBody/refs/heads/main/context.jsonld"
     ]
 }
